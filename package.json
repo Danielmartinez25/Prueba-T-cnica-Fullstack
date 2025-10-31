@@ -1,0 +1,17 @@
+{
+  "name": "desafio-fullstack",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm --workspace apps/api run dev",
+    "db:seed": "npm --workspace apps/api run db:seed",
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev": "concurrently -k \"npm:dev:api\" \"npm:dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
