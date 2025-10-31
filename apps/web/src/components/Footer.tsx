@@ -14,7 +14,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4 text-gray-500 dark:text-gray-400">
           <a
-            href="https://github.com"
+            href="https://github.com/Danielmartinez25"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -23,7 +23,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/daniel-mart/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
